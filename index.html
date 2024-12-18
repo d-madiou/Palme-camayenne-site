@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="style.css">
+    <title>Palme camayenne site</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav__bar">
+                <div class="logo">
+                    <a href="#"><img src="images/logo.png" alt="logo"></a>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="#home">Accueille</a></li>
+                <li><a href="#about">A propos</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#explore">Explorez</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="btn nav__btn">Bookez Ici</button>
+        </nav>
+        <div class="section__container header__container" id="home">
+            <p>Vous etes chez le meilleur endroit</p>
+            <h1>Bienvenue chez <br />Hotel <span>Palme Camayenne</span> de Guinee</h1>
+        </div>
+
+    </header>
+
+    <section class="section__container booking__container">
+        <form action="/" class="booking__form">
+            <div class="input__group">
+                <span><i class="ri-calendar-line"></i></span>
+                <div>
+                    <label for="check-in">ENREGISTREMENT</label>
+                    <input type="text" placeholder="enregistrement">
+                </div>
+            </div> 
+            <div class="input__group">
+                <span><i class="ri-calendar-line"></i></span>
+                <div>
+                    <label for="check-out">VERIFICATION</label>
+                    <input type="text" placeholder="verification">
+                </div>
+            </div> 
+            <div class="input__group">
+                <span><i class="ri-user-fill"></i></span>
+                <div>
+                    <label for="guest">CLIENT</label>
+                    <input type="text" placeholder="client">
+                </div>
+            </div>
+            <div class="input__group input__btn">
+                <button class="btn">SORTIE</button>
+            </div>
+        </form>
+    </section>
+    <section class="section__container about__container" id="about">
+        <div class="about__image">
+            <img src="images/bg.png" alt="">
+        </div>
+        <div class="about__content">
+            <p class="section__subheader">A PROPOS DE NOUS</p>
+            <h2 class="section__header">Nous avons le meilleur endroit pour votre sejour</h2>
+            <p class="section__description">
+                L’hôtel palme Camayenne vous offre la possibilité de rester sans contraintes,
+                 avec des meubles de haute qualité,
+                 connexions internet gratuite, vous 
+                 permet aussi de louer des voitures pendant tout au
+                  long de votre séjour.
+            </p>
+            <div class="about__btn">
+                <button class="btn">Lire</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container room__container">
+        <p class="section__subheader">NOS CHAMBRES OPERATIONNELLES</p>
+        <h2 class="section__header">Vivez au meilleur endroit Chez Palme Camayenne</h2>
+        <div class="room__grid">
+            <!-- Room 1 -->
+            <div class="room__card">
+                <div class="room__card__image">
+                    <img src="images/room1.png" alt="rooms">
+                    <div class="room__card__icons">
+                        <span><i class="ri-poker-hearts-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="room__card__details">
+                    <h4>Chambre pour 2 adultes</h4>
+                    <p>Elle vous permet de vivre avec votre conjoint(e).</p>
+                    <h5>Le prix commence <span>200GNF/nuit</span></h5>
+                    <button class="btn">Prenez</button>
+                </div>
+            </div>
+        
+            <!-- Room 2 -->
+            <div class="room__card">
+                <div class="room__card__image">
+                    <img src="images/room2.png" alt="rooms">
+                    <div class="room__card__icons">
+                        <span><i class="ri-poker-hearts-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="room__card__details">
+                    <h4>Appartement entier</h4>
+                    <p>Vivez dans un appartement entier avec tout à l'intérieur.</p>
+                    <h5>Le prix commence <span>500GNF/nuit</span></h5>
+                    <button class="btn">Prenez</button>
+                </div>
+            </div>
+        
+            <!-- Room 3 -->
+            <div class="room__card">
+                <div class="room__card__image">
+                    <img src="images/room3.png" alt="rooms">
+                    <div class="room__card__icons">
+                        <span><i class="ri-poker-hearts-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="room__card__details">
+                    <h4>Vue sur Mer</h4>
+                    <p>La chambre vous donne le confort de voir la mer.</p>
+                    <h5>Le prix commence <span>150GNF/nuit</span></h5>
+                    <button class="btn">Prenez</button>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <section class="service" id="service">
+        <div class="section__container service__container">
+            <div class="service__content">
+                <p class="section__subheader">SERVICES</p>
+                <h2 class="section__subheader">Vivez le meilleur.</h2>
+                <ul class="service__list">
+                    <li>
+                        <span><i class="ri-shield-star-fill"></i></span>
+                        La sécurité est bien assurée
+                    </li>
+                    <li>
+                        <span><i class="ri-24-hours-line"></i></i></span>
+                        Nous sommes ouvert 24h/24
+                    </li>
+                    <li>
+                        <span><i class="ri-customer-service-line"></i></span>
+                        Chambre de conference
+                    </li>
+                    <li>
+                        <span><i class="ri-map-2-line"></i></span>
+                        Notre assistant touristique 
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container banner__container">
+        <div class="banner__content">
+            <div class="banner__card">
+                <h4>25+</h4>
+                <p>Chambres disponible</p>
+            </div> 
+            <div class="banner__card">
+                <h4>350+</h4>
+                <p>Deja Bookez</p>
+            </div> 
+            <div class="banner__card">
+                <h4>600+</h4>
+                <p>Heureux clients</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="explore" id="explore">
+        <p class="section__subheader">Explorez</p>
+        <h2 class="section__header">La bonne nouvelle today.</h2>
+        <div class="explore__bg">
+            <div class="explore__content">
+                <p class="section__description">12 DECEMBRE 2024</p>
+                <h4>Un nouveau Menu est disponible chez Palme</h4>
+                <button class="btn">continuez</button>
+            </div>
+        </div>
+        
+    </section>
+    <footer class="footer" id="contact">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <div class="logo">
+                    <a href="#home"><img src="images/logo.png" alt="logo"></a>
+                </div>
+                <p class="section__description">
+                    Découvrez le meilleur pour rester 
+                    Chez Palme Camayenne avec un comfort
+                    Inoubliable et des services et de haute qualité.
+                </p>
+                <button class="btn">Bookez Maintenant</button>
+            </div>
+            <div class="footer__col">
+                <h4>CONTACTEZ NOUS</h4>
+                <ul class="footer__links">
+                    <li><a href="#">palmcamayenne@info.com</a></li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-x-fill"></i></a>
+                    <a href="#"><i class="ri-google-fill"></i></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bar">
+            Copyright &copy2024 Thierno Madiou Diallo
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="myscript.js"></script>
+</body>
+</html>
