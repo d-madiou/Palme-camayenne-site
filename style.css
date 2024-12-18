@@ -92,11 +92,11 @@
   }
   
   .header {
-    background-image: url("images/background.jpg");
+    background-image: url("images/backg4.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat; 
-    background-color: rgba(0, 0, 0, 0.9); /* This sets a black color with 90% opacity */
+    background-color: rgba(0, 0, 0, 0.9); 
 }
 
   nav {
@@ -297,9 +297,7 @@
 }
 .room__card h5 span{
   font-size: 1.5rem;
-  background-color: rgb(184, 25, 25);
-  padding: 3px;
-  color: var(--white);
+  color: var(--text-dark);
 }
 
 .service{
@@ -423,10 +421,11 @@
   background-color: var(--text-dark);
 }
 .footer__container{
-  display: grid;
-  gap: 4rem 2rem;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
 .footer__col .section__description{
   margin-block: 2rem;
 }
@@ -452,6 +451,7 @@
   gap: 1rem;
   flex-wrap: wrap;
 }
+
 .footer__socials a{
   color: var(--white);
   transition: 0.3s;
@@ -462,6 +462,7 @@
 }
 .footer__bar{
   padding: 1rem;
+  text-align: center;
   font-size: .9rem;
   color: var(--text-light);
 }
@@ -529,7 +530,7 @@
       grid-column: 2/3;
     }
     .footer__container{
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
 }
 @media(width > 1024px){
